@@ -23,13 +23,13 @@ keras==2.7.0
 keras-nightly==2.5.0.dev2021032900
 Keras-Preprocessing==1.1.2
 libclang==12.0.0
-Mako @ file:///tmp/build/80754af9/mako_1610650590832/work
+Mako
 Markdown==3.3.6
-MarkupSafe @ file:///C:/ci/markupsafe_1621528502553/work
+MarkupSafe
 mkl-fft==1.3.1
-mkl-random @ file:///C:/ci/mkl_random_1626186184308/work
+mkl-random
 mkl-service==2.4.0
-numpy @ file:///C:/ci/numpy_and_numpy_base_1634088717532/work
+numpy
 oauthlib==3.1.1
 opt-einsum==3.3.0
 packaging==21.3
@@ -45,7 +45,7 @@ requests==2.26.0
 requests-oauthlib==1.3.0
 rsa==4.8
 scipy==1.7.3
-six @ file:///tmp/build/80754af9/six_1623709665295/work
+six
 smart-open==5.2.1
 tensorboard==2.7.0
 tensorboard-data-server==0.6.1
@@ -53,7 +53,7 @@ tensorboard-plugin-wit==1.8.0
 tensorflow-estimator==2.5.0
 tensorflow-io-gcs-filesystem==0.22.0
 termcolor==1.1.0
-Theano @ file:///D:/bld/theano_1636561831242/work
+Theano
 toml==0.10.2
 torch==1.10.0
 tqdm==4.62.3
