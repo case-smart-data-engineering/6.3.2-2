@@ -6,4 +6,4 @@ mkdir datas
 mv insuranceQA-master/V2 datas/
 rm -rf insuranceQA-master/
 rm -f master.zip
-cp vocabulary datas/
+cp ./datas/V2/vocabulary ./datas/
