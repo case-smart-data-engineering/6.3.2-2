@@ -178,7 +178,7 @@ def predict():
 
 if __name__ == '__main__':
     model = QA_LSTM(args)
-    # 如果GPU可用，则使用GPu来进行模型的训练
+    # 如果GPU可用， 则使用GPu来进行模型的训练
     if torch.cuda.is_available():
         model.cuda()
     optimizer = torch.optim.Adam(filter(lambda p: p.requires_grad, model.parameters()))
@@ -190,14 +190,16 @@ if __name__ == '__main__':
         model.load_state_dict(checkpoint['state_dict'])
         optimizer.load_state_dict(checkpoint['optimizer'])  # TODO ?
         print("=> loaded checkpoint '{}' (epoch {})".format(args.resume, checkpoint['epoch']))
+
     else:
         print("=> no checkpoint found at '{}'".format(args.resume))
 
     # 开始训练模型
-    train(model, train_data, test_data, optimizer)
+    #train(model, train_data, test_data, optimizer)
 
     # 测试模型
-    test(model, test_data)
+    #test(model, test_data)
+
 
     # 预测
     predict()
