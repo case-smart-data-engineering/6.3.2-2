@@ -195,10 +195,10 @@ if __name__ == '__main__':
         print("=> no checkpoint found at '{}'".format(args.resume))
 
     # 开始训练模型
-    #train(model, train_data, test_data, optimizer)
+    train(model, train_data, test_data, optimizer)
 
     # 测试模型
-    #test(model, test_data)
+    test(model, test_data)
 
 
     # 预测

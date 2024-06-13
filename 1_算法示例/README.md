@@ -7,6 +7,6 @@
 3. 在命令行里输入 `bash download_GoogleNews-vectors-negative300.bin.sh` 并按 `ENTER` 下载数据。
 4. 在命令行里输入 `bash downlaod_insuranceQA.sh` 并按 `ENTER` 下载数据。
 5. 在命令行里输入 `mkdir checkpoints` 并按 `ENTER` 创建一个空目录。
-6. 打开solution.py，将solution.py中main函数里的train()函数去掉注释，在命令行里输入 `python solution.py` 并按 `ENTER` 训练。
-7. 打开solution.py，将solution.py中main函数里的test()函数去掉注释，在命令行里输入 `python solution.py` 并按 `ENTER` 测试。
+6. 在命令行里输入 `python solution.py` 并按 `ENTER` 训练。
+
 
